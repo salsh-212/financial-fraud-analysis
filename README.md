@@ -38,7 +38,7 @@ Here's a 3min [LOOM presentation](https://www.loom.com/share/db8988eebca642faa96
 Loaded a 100,000-record CSV dataset into Snowflake by creating a database, schema and table with defined data types before importing the file directly into the cloud warehouse.
 
 ### 2. SQL Analysis
-Wrote 10 SQL queries in Snowflake to aggregate fraud metrics across key dimensions — transaction type, payment channel, merchant category, device and location. Also wrote risk score analysis queries comparing confirmed fraud transactions against legitimate ones across velocity, spending deviation and geo-anomaly scores.
+Wrote 10 SQL queries in Snowflake to aggregate fraud metrics across key dimensions — transaction type, payment channel, merchant category, device and location. Also wrote risk score analysis queries comparing confirmed fraud transactions against legitimate ones across velocity, spending deviation and geo-anomaly scores. see [SQL file here](fraud-analysis-queries.sql)
 
 ### 3. Power BI Dashboard
 Connected Power BI directly to Snowflake and built an interactive dashboard featuring:
